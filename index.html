@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Recommendation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Job Recommendation Form</h1>
+        <form action="/predict" method="post">
+            <label for="Name">Full Name:</label>
+            <input type="text" id="Name" name="Name" required>
+            
+            <label for="Contact_Number">Contact Number:</label>
+            <input type="text" id="Contact_Number" name="Contact_Number" required>
+            
+            <label for="Email_address">Email Address:</label>
+            <input type="email" id="Email_address" name="Email_address" required>
+            
+            <!-- Add more input fields for other features here -->
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
