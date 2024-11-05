@@ -17,7 +17,6 @@ comm==0.2.2
 contourpy                   ==1.2.1
 cycler                      ==0.12.1
 dataclasses-json            ==0.5.14
-debugpy                     ==1.8.3
 decorator                   ==5.1.1
 distro                      ==1.9.0
 entrypoints                 ==0.4
